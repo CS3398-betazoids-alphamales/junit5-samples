@@ -56,6 +56,6 @@ class CalculatorTests {
 	void subtract(int first, int second, int expectedResult) {
 		Calculator calc = new Calculator();
 		assertEquals(expectedResult, calc.subtract(first, second),
-				() -> first + " + " + second + " should equal " + expectedResult);
+				() -> first + " - " + second + " should equal " + expectedResult);
 	}
 }
